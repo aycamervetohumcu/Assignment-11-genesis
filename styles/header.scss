@@ -1,0 +1,36 @@
+header {
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 20px;
+    width: 91px;
+    font-family: "Mulish", sans-serif;
+}
+
+.ul-top {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+}
+
+.ul-top li {
+    margin-left: 20px;
+}
+
+.ul-top li a {
+    text-decoration: none; 
+    color:black; 
+}
+
+.ul-top li a:hover {
+    color: grey;
+    font-family: "Mulish", sans-serif;
+}

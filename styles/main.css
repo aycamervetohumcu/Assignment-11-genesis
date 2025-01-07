@@ -43,43 +43,83 @@ nav {
   font-family: "Mulish", sans-serif;
 }
 
-.body {
-  max-width: auto;
-  margin: auto;
+footer {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
 }
 
-.first {
-  margin-top: 40px;
-  margin-left: 100px;
+footer nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .ul-top {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .ul-top li {
+  margin-left: 20px;
+}
+
+footer .ul-top li a {
+  text-decoration: none;
+  color: black;
   font-family: "Mulish", sans-serif;
-  font-size: 22;
-  color: blue;
 }
 
-.title_info {
-  width: 635px;
-  height: 195px;
-  margin-top: 25px;
-  margin-left: 100px;
-  font-family: "Mulish", sans-serif;
-  font-size: 40px;
-  line-height: 60px;
-  font-weight: 700;
-  color: #111111;
+footer .ul-top li a:hover {
+  color: grey;
 }
 
-.small_info {
-  width: 207px;
-  height: 23px;
-  margin-top: 0px;
-  margin-left: 1100px;
-  font-family: "Mulish";
-  font-style: italic;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 23px;
-  color: #111111;
-  opacity: 0.6;
+footer .logo {
+  height: 20px;
+  width: auto;
+}
+
+.right-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.sm_footer_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.sm_footer_container a img {
+  height: 20px;
+  width: auto;
 }
 
 .grid-container {
@@ -688,6 +728,45 @@ nav {
   grid-column: 3/span 1;
 }
 
+.body {
+  max-width: auto;
+  margin: auto;
+}
+
+.first {
+  margin-top: 40px;
+  margin-left: 100px;
+  font-family: "Mulish", sans-serif;
+  font-size: 22;
+  color: blue;
+}
+
+.title_info {
+  width: 635px;
+  height: 195px;
+  margin-top: 25px;
+  margin-left: 100px;
+  font-family: "Mulish", sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #111111;
+}
+
+.small_info {
+  width: 207px;
+  height: 23px;
+  margin-top: 0px;
+  margin-left: 1100px;
+  font-family: "Mulish";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111111;
+  opacity: 0.6;
+}
+
 .services-div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -810,83 +889,4 @@ nav {
   text-align: right;
   font-size: 0.9em;
   color: #555;
-}
-
-footer {
-  padding: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
-}
-
-footer nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-footer .ul-top {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-footer .ul-top li {
-  margin-left: 20px;
-}
-
-footer .ul-top li a {
-  text-decoration: none;
-  color: black;
-  font-family: "Mulish", sans-serif;
-}
-
-footer .ul-top li a:hover {
-  color: grey;
-}
-
-footer .logo {
-  height: 20px;
-  width: auto;
-}
-
-.right-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-}
-
-.sm_footer_container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 10px;
-  margin-left: 20px;
-}
-
-.sm_footer_container a img {
-  height: 20px;
-  width: auto;
 }
